@@ -6,7 +6,7 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SimUDuck.MiniDuckSimulator.Perform();
         }
     }
 }
