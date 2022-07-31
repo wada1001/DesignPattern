@@ -14,7 +14,7 @@ is a よりも has aの方が優れることがある
 不変な部分を見定めて変更が起こる部分と分離する  
 追加や変更において既存の部分の変更を少なく  
 
-## Decorator ()
+## Decorator (StarBuzzCoffee)
 
 OpenClosedの原則。全てに適用ではなく、最も変化する可能性の高い場所に目を向ける  
 DecoratorはComponentの代役であるため継承する  
@@ -23,4 +23,13 @@ DecoratorはComponentの代役であるため継承する
 また、構造の複雑化により生成管理が難しくなりうる  
 それはFactory、Builderとの併用で軽減できる  
 
+## Factory (PizzaStore)
+
+Factoryに作成を追い出すことによって複数の場所でそのFactoryを使うことができる  
+色々なところでnewすると変更箇所が増えていく  
+Factoryをインスタンス化するかどうかは用途によって決める  
+単純なものであればstaticで十分  
+継承させてサブクラスで作らせることで恩恵を最大限に受けられる  
+FactoryMethodは共通部分がある場合効果があるが、なければFactoryインターフェースを実装するだけでいいか？  
+コーンのトッピングはアリだと思う  
 

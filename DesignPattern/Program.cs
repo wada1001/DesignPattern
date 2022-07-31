@@ -6,7 +6,7 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            StarBuzzCoffee.StarBuzzCoffeeApp.Perform();
+            PizzaStore.PizzaStoreApp.Perform();
         }
     }
 }
