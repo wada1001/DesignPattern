@@ -9,10 +9,22 @@
     <None Remove="01\" />
     <None Remove="01\Interfaces\" />
     <None Remove="01\Models\" />
+    <None Remove="Observer\" />
+    <None Remove="Observer\Interfaces\" />
+    <None Remove="Observer\Models\" />
+    <None Remove="Decorator\" />
+    <None Remove="Decorator\Models\" />
+    <None Remove="Factory\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="01\" />
-    <Folder Include="01\Interfaces\" />
-    <Folder Include="01\Models\" />
+    <Folder Include="Strategy\" />
+    <Folder Include="Strategy\Interfaces\" />
+    <Folder Include="Strategy\Models\" />
+    <Folder Include="Observer\" />
+    <Folder Include="Observer\Interfaces\" />
+    <Folder Include="Observer\Models\" />
+    <Folder Include="Decorator\" />
+    <Folder Include="Decorator\Models\" />
+    <Folder Include="Factory\" />
   </ItemGroup>
 </Project>

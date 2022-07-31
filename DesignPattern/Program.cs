@@ -6,7 +6,7 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            SimUDuck.MiniDuckSimulator.Perform();
+            StarBuzzCoffee.StarBuzzCoffeeApp.Perform();
         }
     }
 }
