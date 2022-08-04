@@ -17,6 +17,10 @@
     <None Remove="Factory\" />
     <None Remove="Factory\Models\" />
     <None Remove="Factory\Interfaces\" />
+    <None Remove="Singleton\" />
+    <None Remove="Command\" />
+    <None Remove="Adopter\" />
+    <None Remove="Facade\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Strategy\" />
@@ -30,5 +34,9 @@
     <Folder Include="Factory\" />
     <Folder Include="Factory\Models\" />
     <Folder Include="Factory\Interfaces\" />
+    <Folder Include="Singleton\" />
+    <Folder Include="Command\" />
+    <Folder Include="Adapter\" />
+    <Folder Include="Facade\" />
   </ItemGroup>
 </Project>

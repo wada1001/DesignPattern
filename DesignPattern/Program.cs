@@ -6,7 +6,7 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            PizzaStore.PizzaStoreApp.Perform();
+            TurkeyAdapter.TurkeyAdapterApp.Perform();
         }
     }
 }
