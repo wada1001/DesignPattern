@@ -21,6 +21,9 @@
     <None Remove="Command\" />
     <None Remove="Adopter\" />
     <None Remove="Facade\" />
+    <None Remove="TemplateMethod\" />
+    <None Remove="Iterator\" />
+    <None Remove="State\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Strategy\" />
@@ -38,5 +41,8 @@
     <Folder Include="Command\" />
     <Folder Include="Adapter\" />
     <Folder Include="Facade\" />
+    <Folder Include="TemplateMethod\" />
+    <Folder Include="Iterator\" />
+    <Folder Include="State\" />
   </ItemGroup>
 </Project>

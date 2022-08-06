@@ -6,7 +6,7 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            TurkeyAdapter.TurkeyAdapterApp.Perform();
+            MightyGumball.MightyGumballApp.Perform();
         }
     }
 }
