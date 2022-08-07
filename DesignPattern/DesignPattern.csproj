@@ -24,6 +24,12 @@
     <None Remove="TemplateMethod\" />
     <None Remove="Iterator\" />
     <None Remove="State\" />
+    <None Remove="Compound\" />
+    <None Remove="MVC\" />
+    <None Remove="MVC\Modeld\" />
+    <None Remove="MVC\Views\" />
+    <None Remove="MVC\Controllers\" />
+    <None Remove="MVC\Interfaces\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Strategy\" />
@@ -44,5 +50,11 @@
     <Folder Include="TemplateMethod\" />
     <Folder Include="Iterator\" />
     <Folder Include="State\" />
+    <Folder Include="Compound\" />
+    <Folder Include="MVC\" />
+    <Folder Include="MVC\Models\" />
+    <Folder Include="MVC\Views\" />
+    <Folder Include="MVC\Controllers\" />
+    <Folder Include="MVC\Interfaces\" />
   </ItemGroup>
 </Project>

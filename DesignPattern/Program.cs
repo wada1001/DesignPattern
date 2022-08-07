@@ -6,7 +6,7 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            MightyGumball.MightyGumballApp.Perform();
+            SimUDuck2.SimUDuckApp.Perform();
         }
     }
 }
